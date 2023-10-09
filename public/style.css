@@ -173,40 +173,15 @@ section {
 .section__text p {
   font-weight: 600;
 }
-@keyframes typing {
-  0% {
-    width: 0;
-  }
-  100% {
-    width: 100%;
-  }
-}
-
-/* Keyframes for blinking cursor animation */
-@keyframes blink-caret {
-  from,
-  to {
-    border-color: transparent;
-  }
-  50% {
-    border-color: #000;
-  }
-}
+ 
 .section__text__p1 {
   text-align: center;
 }
 .section__text__p2 {
-  /* text-align: center; */
-  font-size: 1.7rem;
+   font-size: 1.7rem;
   margin-bottom: 1rem;
-  animation: moveText 2s ease-in-out; /* Use your desired animation duration and timing function */
-
-  overflow: hidden; /* Hide overflowing text */
-  white-space: nowrap; /* Prevent text from wrapping */
-  border-right: 2px solid #282727; /* Create a blinking cursor */
-  animation: typing 4s steps(40) infinite, blink-caret 0.5s step-end infinite;
-  width: 6; /* Start with no text visible */
 }
+ 
 
 .title {
   font-size: 3rem;
